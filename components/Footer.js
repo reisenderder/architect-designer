@@ -82,10 +82,7 @@ export default function Footer() {
               </li>
               <li>
                 <span className="block text-xs text-slate-500">Телефон:</span>
-                <div className="flex flex-col space-y-0.5">
-                  <span className="text-slate-300 font-mono">+7 (843) 123-45-67</span>
-                  <span className="text-slate-300 font-mono">+49 176 56970485</span>
-                </div>
+                <span className="text-slate-300 font-mono">+49 176 56970485</span>
               </li>
               <li>
                 <span className="block text-xs text-slate-500">Email:</span>
