@@ -24,6 +24,9 @@ export default function Footer() {
             <p className="text-slate-400 text-sm leading-relaxed max-w-md">
               Свяжитесь с нами для обсуждения параметров вашего участка и планировки. Мы ответим на вопросы по мусульманскому зонированию и конструктивным нагрузкам. Первая консультация ни к чему вас не обязывает.
             </p>
+            <p className="text-slate-400 text-sm leading-relaxed max-w-md">
+              Вы также можете направить техническое задание на почту: <a href="mailto:mado@mail.de" className="text-emerald-500 hover:text-emerald-400 font-medium transition-colors">mado@mail.de</a>
+            </p>
           </div>
 
           {!submitted ? (
@@ -82,6 +85,10 @@ export default function Footer() {
                 <span className="text-slate-300 font-mono">+7 (843) 123-45-67</span>
               </li>
               <li>
+                <span className="block text-xs text-slate-500">Email:</span>
+                <a href="mailto:mado@mail.de" className="text-slate-300 hover:text-white transition-colors font-mono">mado@mail.de</a>
+              </li>
+              <li>
                 <span className="block text-xs text-slate-500">Режим работы:</span>
                 <span className="text-slate-300">Пн - Пт: 09:00 - 18:00</span>
               </li>
@@ -101,7 +108,7 @@ export default function Footer() {
                 Telegram
               </a>
               <a 
-                href="https://wa.me/" 
+                href="https://wa.me/4917656970485" 
                 target="_blank" 
                 rel="noreferrer"
                 className="px-4 py-2 border border-slate-700 hover:border-slate-500 rounded text-center text-xs font-semibold text-slate-300 transition-colors"
