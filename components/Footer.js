@@ -78,11 +78,14 @@ export default function Footer() {
             <ul className="space-y-2.5 text-sm">
               <li>
                 <span className="block text-xs text-slate-500">Адрес офиса:</span>
-                <span className="text-slate-300">г. Казань, ул. Спартаковская, д. 2</span>
+                <span className="text-slate-300">Altenhagener Straße 65, 58097 Hagen</span>
               </li>
               <li>
                 <span className="block text-xs text-slate-500">Телефон:</span>
-                <span className="text-slate-300 font-mono">+7 (843) 123-45-67</span>
+                <div className="flex flex-col space-y-0.5">
+                  <span className="text-slate-300 font-mono">+7 (843) 123-45-67</span>
+                  <span className="text-slate-300 font-mono">+49 176 56970485</span>
+                </div>
               </li>
               <li>
                 <span className="block text-xs text-slate-500">Email:</span>
